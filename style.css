@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: casual;
+  background:url('/sprites/background.png') no-repeat;
+  background-size: cover;
+}
+
+#board {
+  margin: 0 auto;
+}
+
+.buttons button {
+  font-size: 50px;
+  padding: 20px;
+  font-weight: 1000;
+  border: none;
+  background: none;
+  color: #000;
+  outline: none;
+}
+
+p {
+  float: left;
+  color:White;
+  font-weight: 800;
+  padding-left: 10px;
+}
+#status {
+  float: right;
+  color: red;
+  font-weight: 900;
+}
+
+.play {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  font-size: 13px;
+  background: green;
+  color: white;
+  outline: none;
+  font-weight: 800;
+  font-family: casual;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
